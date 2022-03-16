@@ -39,7 +39,7 @@
                 </configuration>
                 <executions>
                     <execution>
-                        <id>prepare-12345</id>
+                        <id>prepare-agent</id>
                         <goals>
                             <goal>prepare-agent</goal>
                         </goals>
