@@ -15,5 +15,13 @@
 <span class="fc" id="L15">                current_max = income;</span>
 <span class="fc" id="L16">        return current_max;</span>
     }
+    public long findMin(long[] incomes) {
+<span class="fc" id="L19">        long current_min_index = 0;</span>
+<span class="fc" id="L20">        long current_min = incomes[0];</span>
+<span class="fc bfc" id="L21" title="All 2 branches covered.">        for (long income : incomes)</span>
+<span class="fc bfc" id="L22" title="All 2 branches covered.">            if (current_min &gt; income)</span>
+<span class="fc" id="L23">                current_min = income;</span>
+<span class="fc" id="L24">        return current_min;</span>
+    }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>
